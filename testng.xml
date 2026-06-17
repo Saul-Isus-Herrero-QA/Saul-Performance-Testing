@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="K6 Performance Tests Suite" parallel="false" verbose="2">
+    <test name="K6 Scripts Execution">
+        <classes>
+            <class name="com.saul.performance.K6PerformanceTest">
+                <methods>
+                    <include name="runAllK6ScriptsInParallel"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
+
